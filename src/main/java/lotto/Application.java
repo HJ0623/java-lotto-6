@@ -149,6 +149,7 @@ public class Application {
             }
         }
 
+
         System.out.println("당첨 통계");
         System.out.println("---");
         System.out.println("3개 일치 (5,000원) - " + prizeCountMap.get(5) + "개");
