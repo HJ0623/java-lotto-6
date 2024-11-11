@@ -18,7 +18,6 @@ public class Application {
         app.run();
 
     }
-
     public void run() {
         getInputMoney();
         generateLotto();
