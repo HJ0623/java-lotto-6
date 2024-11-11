@@ -13,7 +13,6 @@ public class Application {
     int inputBonusNumber = 0;      //try를 사용해서 변수를 위에다가 다 선언
     List<List<Integer>> purchasedLotto = new ArrayList<>(); //로또를 여러개 사야하니깐
 
-
     public static void main(String[] args) {
         Application app = new Application();
         app.run();
