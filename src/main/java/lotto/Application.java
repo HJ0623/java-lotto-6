@@ -136,7 +136,7 @@ public class Application {
             } else if (matchCount == 5 && isBonusNumberMatched) {
                 prizeCountMap.put(2, prizeCountMap.get(2) + 1);
                 totalPrize += 30000000;
-            } else if (matchCount == 5 && !isBonusNumberMatched) {
+            } else if (matchCount == 5 ) {
                 prizeCountMap.put(3, prizeCountMap.get(3) + 1);
                 totalPrize += 1500000;
             } else if (matchCount == 4) {
